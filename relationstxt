@@ -1,0 +1,48 @@
+technician has_many :transactions
+transaction belongs_to :technician
+
+technician belongs_to :image
+image belongs_to :technician
+
+transaction belongs_to :store
+store has_many :transactions
+
+transaction belongs_to :user
+user has_many :transactions
+
+user belongs_to :city
+city has_many :users
+
+user has_many :comments
+comment belongs_to :user
+
+user has_many :forums
+forum belongs_to :user
+
+user belongs_to :image
+image belongs_to :user
+
+forum has_many :comments
+comment belongs_to :forum
+
+store belongs_to :city
+city has_many :stores
+
+store has_many :components
+component belongs_to :store
+
+store has_many :images
+image belongs_to :store
+
+store has_many :bycicles
+bycicle belongs_to :store
+
+component has_many :images
+image belongs_to :component
+
+bycicle has_many :images
+image belongs_to :bycicle
+
+
+
+

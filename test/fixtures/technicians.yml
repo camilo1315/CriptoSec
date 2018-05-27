@@ -1,0 +1,42 @@
+# == Schema Information
+#
+# Table name: technicians
+#
+#  id                     :integer          not null, primary key
+#  id_technical           :integer
+#  NameTec                :string
+#  SurnameTec             :string
+#  typeworktec            :string
+#  costhourtec            :float
+#  phonenumtec            :integer
+#  created_at             :datetime         not null
+#  updated_at             :datetime         not null
+#  email                  :string           default(""), not null
+#  encrypted_password     :string           default(""), not null
+#  reset_password_token   :string
+#  reset_password_sent_at :datetime
+#  remember_created_at    :datetime
+#  authentication_token   :string(30)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_technical: 1
+  NameTec: MyString
+  SurnameTec: MyString
+  typeworktec: MyString
+  emailtec: MyString
+  costhourtec: 1.5
+  passwordtec: MyString
+  phonenumtec: 1
+
+two:
+  id_technical: 1
+  NameTec: MyString
+  SurnameTec: MyString
+  typeworktec: MyString
+  emailtec: MyString
+  costhourtec: 1.5
+  passwordtec: MyString
+  phonenumtec: 1

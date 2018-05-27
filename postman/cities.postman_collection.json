@@ -1,0 +1,57 @@
+{
+	"id": "2560c9e4-839a-2dfb-b502-5b03442fd1d7",
+	"name": "cities",
+	"description": "",
+	"order": [
+		"22fde99c-c2fc-b49a-137a-f974fb82a165"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1521149497690,
+	"owner": "3928487",
+	"public": false,
+	"requests": [
+		{
+			"id": "22fde99c-c2fc-b49a-137a-f974fb82a165",
+			"headers": "//user[name]: juan\nuser[age]: 7\n//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "user[name]",
+					"value": "juan",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "user[age]",
+					"value": "7",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3000/cities",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2560c9e4-839a-2dfb-b502-5b03442fd1d7",
+			"data": [],
+			"dataMode": "params",
+			"name": "http://localhost:3000/cities",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1521149499285,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

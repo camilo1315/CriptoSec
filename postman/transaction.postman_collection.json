@@ -1,0 +1,37 @@
+{
+	"id": "ece8ed89-dda3-489a-0821-7e71d4466fcb",
+	"name": "transaction",
+	"description": "",
+	"order": [
+		"9a2074f4-0e31-cf9a-0c5b-ce30023e962d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1521149907560,
+	"owner": "3928487",
+	"public": false,
+	"requests": [
+		{
+			"id": "9a2074f4-0e31-cf9a-0c5b-ce30023e962d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1521149920464,
+			"name": "http://localhost:3000/transactions",
+			"description": "",
+			"collectionId": "ece8ed89-dda3-489a-0821-7e71d4466fcb",
+			"responses": [],
+			"rawModeData": "{\n \"idcity\": 243\n \"name_city\": \"bogota\"\n}"
+		}
+	]
+}

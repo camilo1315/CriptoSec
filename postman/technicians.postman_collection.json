@@ -1,0 +1,39 @@
+{
+	"id": "c7f46b7b-39dc-bac3-4d9e-270883fb60be",
+	"name": "technicians",
+	"description": "",
+	"order": [
+		"f5f7b957-f013-6130-95ff-aa64cbeaa370"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1521149953831,
+	"owner": "3928487",
+	"public": false,
+	"requests": [
+		{
+			"id": "f5f7b957-f013-6130-95ff-aa64cbeaa370",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/technicians",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c7f46b7b-39dc-bac3-4d9e-270883fb60be",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/transactions",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1521149954873,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n \"idcity\": 243\n \"name_city\": \"bogota\"\n}"
+		}
+	]
+}

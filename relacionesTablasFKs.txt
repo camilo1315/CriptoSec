@@ -1,0 +1,23 @@
+
+se lee: un *** le pertenece a un ***
+
+trasaction tiene la fk de tecnico
+trasaction tiene la fk de store
+trasaction tiene la fk de user
+
+store tiene la fk de ciudad
+user tiene la fk de ciudad
+
+forum tiene la fk de user
+
+comment tiene la fk de forum 
+comment tiene la fk de user 
+
+bicycle tiene la fk de store
+
+component tiene la fk de store
+
+image tiene la fk de bicycle
+image tiene la fk de store
+image tiene la fk de component
+image tiene la fk de user

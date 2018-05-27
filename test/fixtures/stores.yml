@@ -1,0 +1,64 @@
+# == Schema Information
+#
+# Table name: stores
+#
+#  id                     :integer          not null, primary key
+#  id_store               :integer
+#  name_store             :string
+#  address_store          :string
+#  score_store            :integer
+#  phonenum_store         :integer
+#  celphone_store         :integer
+#  created_at             :datetime         not null
+#  updated_at             :datetime         not null
+#  email                  :string           default(""), not null
+#  encrypted_password     :string           default(""), not null
+#  reset_password_token   :string
+#  reset_password_sent_at :datetime
+#  remember_created_at    :datetime
+#  authentication_token   :string(30)
+#  city_id                :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+<<<<<<< Updated upstream
+  name_store: MyString
+  address_store: MyString
+  email_store: MyString
+  dateregis_store: 
+  score_store: 1
+  password_store: MyString
+  phonenum_store: 1
+
+two:
+  name_store: MyString
+  address_store: MyString
+  email_store: MyString
+  dateregis_store: 
+  score_store: 1
+  password_store: MyString
+  phonenum_store: 1
+=======
+  id_store: 1
+  name_store: MyString
+  address_store: MyString
+  email_store: MyString
+  dateregis_store: MyString
+  score_store: 1
+  password_store: MyString
+  phonenum_store: 1
+  celphone_store: 1
+
+two:
+  id_store: 1
+  name_store: MyString
+  address_store: MyString
+  email_store: MyString
+  dateregis_store: MyString
+  score_store: 1
+  password_store: MyString
+  phonenum_store: 1
+  celphone_store: 1
+>>>>>>> Stashed changes

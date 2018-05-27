@@ -1,0 +1,36 @@
+# == Schema Information
+#
+# Table name: bicycles
+#
+#  id               :integer          not null, primary key
+#  id_bicy          :integer
+#  brand_bicy       :string
+#  material_bicy    :string
+#  components_bicy  :string
+#  price_bicy       :float
+#  usetype_bicy     :string
+#  description_bicy :string
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  store_id         :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_bicy: 1
+  brand_bicy: MyString
+  material_bicy: MyString
+  components_bicy: MyString
+  price_bicy: 1.5
+  usetype_bicy: MyString
+  description_bicy: MyString
+
+two:
+  id_bicy: 1
+  brand_bicy: MyString
+  material_bicy: MyString
+  components_bicy: MyString
+  price_bicy: 1.5
+  usetype_bicy: MyString
+  description_bicy: MyString
